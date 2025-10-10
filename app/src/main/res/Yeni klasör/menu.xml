@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/ic_action_home"
+        android:showAsAction="always"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/item_back"
+        android:icon="@drawable/ic_action_back"
+        android:showAsAction="always"
+        android:title="Back" />
+
+    <item
+        android:id="@+id/item_forward"
+        android:icon="@drawable/ic_action_forward"
+        android:showAsAction="always"
+        android:title="Forward" />
+</menu>
