@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtAddress = findViewById(R.id.adress);
+        txtAddress = findViewById(R.id.txtUrl);
         btnGo = findViewById(R.id.go);
         webView = findViewById(R.id.webview);
 
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     // Menu creation
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
+        getMenuInflater().inflate(R.menu.menu , menu);
         return true;
     }
 
